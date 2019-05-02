@@ -1,0 +1,1 @@
+use('adonis-astria').init();

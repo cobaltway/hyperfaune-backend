@@ -1,0 +1,25 @@
+# Node modules
+node_modules
+
+# Adonis directory for storing tmp files
+tmp
+
+# Environment variables, never commit this file
+.env
+
+# NPM Lock files
+package-lock.json
+
+# The development sqlite file
+database/development.sqlite
+
+# VSCode configuration folder
+.vscode/
+
+.DS_Store
+**/*/.DS_Store
+
+public/*
+!public/.gitkeep 
+
+yarn-error.log
